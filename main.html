@@ -4,10 +4,45 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	 <style>
+        blockquote {
+            max-width: 600px;
+            margin: 10px auto;
+            padding: 15px;
+            border-left: 8px solid green;
+            background-color: #f8fffe;
+            font-weight: bold;
+            font-style: italic;
+        }
+    </style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<section>
+        <h1>Quiz Time</h1>
+        <form>
+            <p>What is the capital of India?</p>
+            <label>
+                <input type="radio" name="capital" value="new-delhi">
+                New Delhi
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="capital" value="mumbai">
+                Mumbai
+            </label>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section>
+        <blockquote>
+            "New Delhi is the capital of India and an administrative district of NCT Delhi."
+            <footer>— Wikipedia</footer>
+        </blockquote>
+    </section>
     <script type="text/javascript" src="./script.js">
 </script>
 
